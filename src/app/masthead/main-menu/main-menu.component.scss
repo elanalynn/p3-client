@@ -1,0 +1,28 @@
+@import '../../../scss/colors'; 
+@import '../../../scss/fonts'; 
+
+ul {
+    margin: 20px 0;
+    padding: 0;
+
+    li {
+        color: $primary-text-alt-color;
+        background-color: $masthead-color;
+        list-style: none;
+        font-size: 1.2em;
+        line-height: 2em;
+        text-align: center;
+        padding: 5px 0;
+        margin: 0;
+        width: 100%;
+
+        &:hover {
+            background-color: lighten($masthead-color, 5%);
+        }
+
+        a {
+            color: inherit;
+        }
+    }
+}
+

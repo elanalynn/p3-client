@@ -1,0 +1,11 @@
+<form name="contact-form" ng-submit="sendMessage(message)">
+  <label for="Name">Name</label>
+  <input pattern="[A-Z,a-z, ]*" type="text" ng-model="message.name">
+  <span class="form-error">Letters and spaces only</span>
+  <label for="Email">Email</label>
+  <input type="text" ng-model="message.email">
+  <label for="note">Note</label>
+  <textarea type="text" rows="5" ng-model="message.note"></textarea>
+  <button type="submit" class="button button-primary" >Send</button>
+</form>
+<p>{{ confirmation }}</p>

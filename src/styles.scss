@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import '/scss/colors';
+@import '/scss/fonts';
+
+body {
+    background: url('/assets/squared_metal.png') repeat;
+    color: #333;
+}
+
+h1, h2, h3, h4 {
+    font-family: $header-font-family;
+}
+
+p, li {
+    font-family: $body-font-family;
+}
+
+a {
+    text-decoration: none;
+}
