@@ -7,7 +7,7 @@ ul {
 
     li {
         color: $primary-text-alt-color;
-        background-color: $masthead-color;
+        background-color: $accent-color;
         list-style: none;
         font-size: 1.2em;
         line-height: 2em;
@@ -17,7 +17,7 @@ ul {
         width: 100%;
 
         &:hover {
-            background-color: lighten($masthead-color, 5%);
+            background-color: lighten($accent-color, 5%);
         }
 
         a {

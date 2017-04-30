@@ -1,0 +1,22 @@
+@import '../../scss/colors';
+@import '../../scss/fonts';
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.post-date {
+    font-family: $header-font-family;
+    font-weight: bold;
+    color: darken($accent-color, 10%);
+}
+
+.post-title {
+    font-family: $header-font-family;
+    color: $primary-text-color;
+}
+
+.post-blurb {
+    color: $primary-text-alt-color;
+}

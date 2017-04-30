@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './masthead.component.html',
   styleUrls: ['./masthead.component.scss']
 })
-
 export class MastheadComponent {
 
   firstName = 'Elana';

@@ -18,7 +18,8 @@ import { ProjectComponent } from './projects/project/project.component';
 import { SocialIconsComponent } from './masthead/social-icons/social-icons.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ShadIsSmartComponent } from './shad-is-smart/shad-is-smart.component';
-import { WritingComponent } from './writing/writing.component';
+import { WritingModule, WritingComponent } from './writing';
+import './rxjs-extensions';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { WritingComponent } from './writing/writing.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(APP_ROUTES)
+    RouterModule.forRoot(APP_ROUTES),
+    WritingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

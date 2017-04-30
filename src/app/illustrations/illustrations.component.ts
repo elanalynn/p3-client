@@ -4,7 +4,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './illustrations.component.html',
   styleUrls: ['./illustrations.component.scss']
 })
-
 export class IllustrationsComponent implements OnInit {
 
   illustrations = [

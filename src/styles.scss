@@ -3,7 +3,7 @@
 
 body {
     background: url('/assets/squared_metal.png') repeat;
-    color: #333;
+    color: $primary-text-alt-color;
 }
 
 h1, h2, h3, h4 {
@@ -16,4 +16,5 @@ p, li {
 
 a {
     text-decoration: none;
+    color: $primary-text-alt-color;
 }

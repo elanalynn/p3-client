@@ -1,23 +1,30 @@
 import { Component, OnInit } from '@angular/core';
+import { WritingService } from './';
+import { IPost } from './post.model';
+import * as moment from 'moment';
 
 @Component({
   templateUrl: './writing.component.html',
   styleUrls: ['./writing.component.scss']
 })
-
 export class WritingComponent implements OnInit {
 
-  posts_2016 = [
-    {
-      title: 'sdf',
-      date: '123',
-      blurb: 'sfsdf'
-    }
-  ];
+  posts: IPost[];
 
-  constructor() { }
+  constructor(
+    private writingSvc: WritingService
+  ) { }
 
   ngOnInit() {
+    const posts: IPost[] = [];
+    this.writingSvc.getPosts()
+    .subscribe(p => {
+      p.map(post => {
+        const date = moment(post.date).format('MMM DD');
+        post.date = date;
+        posts.push(post);
+        this.posts = posts;
+      });
+    });
   }
-
 }

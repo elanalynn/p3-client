@@ -6,7 +6,7 @@ import {
     ResumeComponent,
     WritingComponent,
     ShadIsSmartComponent
-} from './index';
+} from './';
 
 export const APP_ROUTES = [
     { path: '', redirectTo: 'about', pathMatch: 'full' },

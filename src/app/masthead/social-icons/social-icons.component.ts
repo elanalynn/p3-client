@@ -5,5 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './social-icons.component.html',
   styleUrls: ['./social-icons.component.scss']
 })
-
 export class SocialIconsComponent {}

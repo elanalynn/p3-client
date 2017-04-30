@@ -2,7 +2,7 @@
 
 
 :host {
-    background-color: $masthead-color;
+    background-color: $accent-color;
     width: 20%;
     max-width: 400px;
     min-width: 300px;
@@ -18,11 +18,13 @@
     h1 {
         margin: 40px auto 0;
         color: $primary-header-alt-color;
+        font-size: 1.6em;
     }
 
     h2 {
         color: $secondary-header-alt-color;        
         font-weight: light;
-        margin: 0 auto 20px;
+        margin: 0 auto 30px;
+        font-size: 1.4em;
     }
 }
