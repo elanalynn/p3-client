@@ -9,7 +9,7 @@ export class WritingService {
 
     post: IPost;
     posts: IPost[];
-    api = 'http://localhost:3000';
+    api = 'https://p3-server.herokuapp.com';
 
     constructor (
         private http: Http
