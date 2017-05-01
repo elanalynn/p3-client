@@ -8,8 +8,11 @@ import { AppComponent } from './app.component';
 import { APP_ROUTES } from './routes';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
-import { IllustrationsComponent } from './illustrations/illustrations.component';
-import { IllustrationComponent } from './/illustrations/illustration/illustration.component';
+import {
+  // IllustrationsModule,
+  IllustrationsComponent,
+  IllustrationComponent
+} from './illustrations';
 import { MastheadComponent } from './masthead/masthead.component';
 import { AvatarComponent } from './masthead/avatar/avatar.component';
 import { MainMenuComponent } from './masthead/main-menu/main-menu.component';
@@ -18,7 +21,11 @@ import { ProjectComponent } from './projects/project/project.component';
 import { SocialIconsComponent } from './masthead/social-icons/social-icons.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ShadIsSmartComponent } from './shad-is-smart/shad-is-smart.component';
-import { WritingModule, WritingComponent } from './writing';
+import {
+  PostComponent,
+  WritingModule,
+  WritingComponent
+} from './writing';
 import './rxjs-extensions';
 
 @NgModule({
@@ -36,12 +43,14 @@ import './rxjs-extensions';
     ResumeComponent,
     ShadIsSmartComponent,
     SocialIconsComponent,
-    WritingComponent
+    WritingComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    // IllustrationsModule,
     RouterModule.forRoot(APP_ROUTES),
     WritingModule
   ],

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { IllustrationsService } from './';
+import { IIllustration } from './illustration/illustration.model';
 
 @Component({
   templateUrl: './illustrations.component.html',
@@ -6,13 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IllustrationsComponent implements OnInit {
 
-  illustrations = [
-    'a', 'b', 'c'
-  ];
+  illustrations: IIllustration[];
 
-  constructor() { }
+  constructor(
+    // private illustrationsSvc: IllustrationsService
+  ) { }
 
   ngOnInit() {
+    // const illustrations: IIllustration[] = [];
+    // this.illustrationsSvc.getIllustrations()
+    // .subscribe(i => {
+    //   i.map(illustration => {
+    //     illustrations.push(illustration);
+    //     this.illustrations = illustrations;
+    //     console.log(this.illustrations);
+    //   });
+    // });
   }
-
 }

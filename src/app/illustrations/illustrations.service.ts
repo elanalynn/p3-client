@@ -1,34 +1,33 @@
 import { Injectable } from '@angular/core';
 import { Headers, Http, RequestOptions, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
-import { IPost } from './post/post.model';
+import { IIllustration } from './illustration/illustration.model';
 import 'rxjs/Rx';
 
 @Injectable()
-export class WritingService {
+export class IllustrationsService {
 
-    post: IPost;
-    posts: IPost[];
-    api = 'https://p3-server.herokuapp.com';
+    illustration: IIllustration;
+    illustrations: IIllustration[];
+    api = 'https://p3-server.herokuapp.com/illustrations';
 
     constructor (
         private http: Http
     ) {}
 
-    public getPosts(): Observable<IPost[]> {
-        const url = `${this.api}/posts`;
+    public getIllustrations(): Observable<IIllustration[]> {
+        const url = this.api;
         return this.http.get(url).map((response: Response) => {
-            return <IPost[]>response.json();
+            return <IIllustration[]>response.json();
         }).catch(this.handleError);
     }
 
-    public getPost(postId: number): Observable<Response> {
-        const url = `${this.api}/posts/${postId}`;
+    public getIllustration(id: number): Observable<Response> {
+        const url = `${this.api}/${id}`;
         return this.http.get(url);
     }
 
     public handleError(error: Response) {
         return Observable.throw(error.statusText);
     }
-
 }

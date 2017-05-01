@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { WritingService } from './';
-import { IPost } from './post.model';
+import { IPost } from './post/post.model';
 import * as moment from 'moment';
 
 @Component({
@@ -16,7 +16,7 @@ export class WritingComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    const posts: IPost[] = [];
+    const posts: any[] = [];
     this.writingSvc.getPosts()
     .subscribe(p => {
       p.map(post => {
