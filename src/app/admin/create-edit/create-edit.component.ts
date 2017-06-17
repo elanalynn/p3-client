@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { EditorModule, SharedModule } from 'primeng/primeng';
 
 @Component({
   selector: 'app-create-edit',
@@ -7,6 +6,7 @@ import { EditorModule, SharedModule } from 'primeng/primeng';
   styleUrls: ['./create-edit.component.scss']
 })
 export class CreateEditComponent implements OnInit {
+  text = 'blarg';
 
   constructor() { }
 
