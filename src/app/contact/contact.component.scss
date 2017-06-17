@@ -1,0 +1,17 @@
+.contact_card {
+    // margin-left: 20%;
+    width: 100%;
+
+    .contact_card-media {
+        width: 100%;
+        height: 240px;
+        background-image: url('../../assets/contact-image.jpg');
+        background-size: cover;
+    }
+
+    form {
+        width: 60%;
+        max-width: 800px;
+        margin: 20px auto auto;
+    }
+}

@@ -4,4 +4,9 @@ import { Component } from '@angular/core';
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })
-export class ContactComponent  {}
+export class ContactComponent  {
+
+  sendMessage(msg) {
+    console.log(msg);
+  }
+}

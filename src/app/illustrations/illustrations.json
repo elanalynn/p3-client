@@ -1,0 +1,339 @@
+[
+  {
+    "id": 1,
+    "title": "Double O Seven",
+    "thumbnail": "../assets/art/001_thumb.jpg",
+    "image": "../assets/art/001.jpg",
+    "year": "2013",
+    "medium": "digital"
+  },{
+    "id": 2,
+    "title": "Jogger",
+    "thumbnail": "../assets/art/002_thumb.jpg",
+    "image": "../assets/art/002.jpg",
+    "year": "2007",
+    "medium": "digital"
+  },{
+    "id": 3,
+    "title": "Secretary Bird",
+    "thumbnail": "../assets/art/003_thumb.jpg",
+    "image": "../assets/art/003.jpg",
+    "year": "2015",
+    "medium": "digital"
+  },{
+    "id": 4,
+    "title": "Secretary",
+    "thumbnail": "../assets/art/004_thumb.jpg",
+    "image": "../assets/art/004.jpg",
+    "year": "2012",
+    "medium": "digital"
+  },{
+    "id": 5,
+    "title": "Red Woman",
+    "thumbnail": "../assets/art/005_thumb.jpg",
+    "image": "../assets/art/005.jpg",
+    "year": "2012",
+    "medium": "digital"
+  },{
+    "id": 6,
+    "title": "Blue Woman",
+    "thumbnail": "../assets/art/006_thumb.jpg",
+    "image": "../assets/art/006.jpg",
+    "year": "2012",
+    "medium": "digital"
+  },{
+    "id": 7,
+    "title": "Happy Dog",
+    "thumbnail": "../assets/art/007_thumb.jpg",
+    "image": "../assets/art/007.jpg",
+    "year": "2012",
+    "medium": "digital"
+  },{
+    "id": 8,
+    "title": "Don Draper",
+    "thumbnail": "../assets/art/008_thumb.jpg",
+    "image": "../assets/art/008.jpg",
+    "year": "2015",
+    "medium": "digital"
+  },{
+    "id": 9,
+    "title": "Shakti Dancer",
+    "thumbnail": "../assets/art/009_thumb.jpg",
+    "image": "../assets/art/shakti-dancer.jpg",
+    "year": "2014",
+    "medium": "digital"
+  },{
+    "id": 10,
+    "title": "Eyes and Nose",
+    "thumbnail": "../assets/art/010_thumb.jpg",
+    "image": "../assets/art/010.jpg",
+    "year": "2014",
+    "medium": "digital"
+  },{
+    "id": 11,
+    "title": "Sunny",
+    "thumbnail": "../assets/art/011_thumb.jpg",
+    "image": "../assets/art/011.jpg",
+    "year": "2015",
+    "medium": "digital paint over acrylic on canvas"
+  },{
+    "id": 12,
+    "title": "Dragon",
+    "thumbnail": "../assets/art/012_thumb.jpg",
+    "image": "../assets/art/012.jpg",
+    "year": "2001",
+    "medium": "colored pencil"
+  },{
+    "id": 13,
+    "title": "Honu #3",
+    "thumbnail": "../assets/art/013_thumb.jpg",
+    "image": "../assets/art/013.jpg",
+    "year": "2014",
+    "medium": "acrylic on canvas"
+  },{
+    "id": 14,
+    "title": "Woman #602",
+    "thumbnail": "../assets/art/014_thumb.jpg",
+    "image": "../assets/art/014.jpg",
+    "year": "2013",
+    "medium": "digital"
+  },{
+    "id": 15,
+    "title": "Fish and Ferryman",
+    "thumbnail": "../assets/art/015_thumb.jpg",
+    "image": "../assets/art/015.jpg",
+    "year": "2013",
+    "medium": "digital"
+  },{
+    "id": 16,
+    "title": "Emmanuel",
+    "thumbnail": "../assets/art/016_thumb.jpg",
+    "image": "../assets/art/016.jpg",
+    "year": "2012",
+    "medium": "digital"
+  },{
+    "id": 17,
+    "title": "The Good the Bad and the Ugly",
+    "thumbnail": "../assets/art/017_thumb.jpg",
+    "image": "../assets/art/017.jpg",
+    "year": "2010",
+    "medium": "digital"
+  },{
+    "id": 18,
+    "title": "Bath Time",
+    "thumbnail": "../assets/art/018_thumb.jpg",
+    "image": "../assets/art/018.jpg",
+    "year": "2010",
+    "medium": "digital"
+  },{
+    "id": 19,
+    "title": "Space",
+    "thumbnail": "../assets/art/019_thumb.jpg",
+    "image": "../assets/art/019.jpg",
+    "year": "2010",
+    "medium": "digital"
+  },{
+    "id": 20,
+    "title": "Fish Face",
+    "thumbnail": "../assets/art/020_thumb.jpg",
+    "image": "../assets/art/020.jpg",
+    "year": "2011",
+    "medium": "digital"
+  },{
+    "id": 21,
+    "title": "Goblin",
+    "thumbnail": "../assets/art/021_thumb.jpg",
+    "image": "../assets/art/021.jpg",
+    "year": "2008",
+    "medium": "digital"
+  },{
+    "id": 22,
+    "title": "Stapler Face",
+    "thumbnail": "../assets/art/022_thumb.jpg",
+    "image": "../assets/art/022.jpg",
+    "year": "2011",
+    "medium": "digital"
+  },{
+    "id": 23,
+    "title": "Imp",
+    "thumbnail": "../assets/art/023_thumb.jpg",
+    "image": "../assets/art/023.jpg",
+    "year": "2009",
+    "medium": "digital"
+  },{
+    "id": 24,
+    "title": "Hel",
+    "thumbnail": "../assets/art/024_thumb.jpg",
+    "image": "../assets/art/024.jpg",
+    "year": "2010",
+    "medium": "acrylic on canvas"
+  },{
+    "id": 25,
+    "title": "Herman",
+    "thumbnail": "../assets/art/025_thumb.jpg",
+    "image": "../assets/art/025.jpg",
+    "year": "2011",
+    "medium": "digital"
+  },{
+    "id": 26,
+    "title": "Frank",
+    "thumbnail": "../assets/art/026_thumb.jpg",
+    "image": "../assets/art/026.jpg",
+    "year": "2009",
+    "medium": "digital"
+  },{
+    "id": 27,
+    "title": "Nick Cave",
+    "thumbnail": "../assets/art/027_thumb.jpg",
+    "image": "../assets/art/027.jpg",
+    "year": "2011",
+    "medium": "digital"
+  },{
+    "id": 28,
+    "title": " Angry Man",
+    "thumbnail": "../assets/art/028_thumb.jpg",
+    "image": "../assets/art/028.jpg",
+    "year": "2009",
+    "medium": "digital"
+  },{
+    "id": 29,
+    "title": "Francis",
+    "thumbnail": "../assets/art/029_thumb.jpg",
+    "image": "../assets/art/029.jpg",
+    "year": "2011",
+    "medium": "digital"
+  },{
+    "id": 30,
+    "title": "Hijab",
+    "thumbnail": "../assets/art/030_thumb.jpg",
+    "image": "../assets/art/030.jpg",
+    "year": "2011",
+    "medium": "digital"
+  },{
+    "id": 31,
+    "title": "Steam Punk Balloon",
+    "thumbnail": "../assets/art/031_thumb.jpg",
+    "image": "../assets/art/031.jpg",
+    "year": "2012",
+    "medium": "digital"
+  },{
+    "id": 32,
+    "title": "Watermelon",
+    "thumbnail": "../assets/art/032_thumb.jpg",
+    "image": "../assets/art/032.jpg",
+    "year": "2012",
+    "medium": "digital"
+  },{
+    "id": 33,
+    "title": "Nautilis",
+    "thumbnail": "../assets/art/033_thumb.jpg",
+    "image": "../assets/art/033.jpg",
+    "year": "2010",
+    "medium": "digital"
+  },{
+    "id": 34,
+    "title": "Owl",
+    "thumbnail": "../assets/art/034_thumb.jpg",
+    "image": "../assets/art/034.jpg",
+    "year": "2008",
+    "medium": "digital"
+  },{
+    "id": 35,
+    "title": "Poofy French Lady",
+    "thumbnail": "../assets/art/035_thumb.jpg",
+    "image": "../assets/art/035.jpg",
+    "year": "2008",
+    "medium": "digital"
+  },{
+    "id": 36,
+    "title": "Sore Throat",
+    "thumbnail": "../assets/art/036_thumb.jpg",
+    "image": "../assets/art/036.jpg",
+    "year": "2010",
+    "medium": "digital"
+  },{
+    "id": 37,
+    "title": "Snow Day",
+    "thumbnail": "../assets/art/037_thumb.jpg",
+    "image": "../assets/art/037.jpg",
+    "year": "2010",
+    "medium": "digital"
+  },{
+    "id": 38,
+    "title": "To Be or Not to Be",
+    "thumbnail": "../assets/art/038_thumb.jpg",
+    "image": "../assets/art/038.jpg",
+    "year": "2014",
+    "medium": "digital"
+  },{
+    "id": 39,
+    "title": "Oedipus",
+    "thumbnail": "../assets/art/039_thumb.jpg",
+    "image": "../assets/art/039.jpg",
+    "year": "2015",
+    "medium": "digital"
+  },{
+    "id": 40,
+    "title": "Zeno",
+    "thumbnail": "../assets/art/040_thumb.jpg",
+    "image": "../assets/art/040.jpg",
+    "year": "2014",
+    "medium": "digital"
+  },{
+    "id": 41,
+    "title": "Snail ",
+    "thumbnail": "../assets/art/041_thumb.jpg",
+    "image": "../assets/art/041.jpg",
+    "year": "2011",
+    "medium": "digital"
+  },{
+    "id": 42,
+    "title": "Shoes",
+    "thumbnail": "../assets/art/042_thumb.jpg",
+    "image": "../assets/art/042.jpg",
+    "year": "2015",
+    "medium": "digital"
+  },{
+    "id": 43,
+    "title": "Princessa",
+    "thumbnail": "../assets/art/043_thumb.jpg",
+    "image": "../assets/art/043.jpg",
+    "year": "2010",
+    "medium": "digital"
+  },{
+    "id": 44,
+    "title": "Likke",
+    "thumbnail": "../assets/art/044_thumb.jpg",
+    "image": "../assets/art/044.jpg",
+    "year": "2013",
+    "medium": "digital"
+  },{
+    "id": 45,
+    "title": "Kangs",
+    "thumbnail": "../assets/art/045_thumb.jpg",
+    "image": "../assets/art/045.jpg",
+    "year": "2014",
+    "medium": "digital"
+  },{
+    "id": 46,
+    "title": "Lice",
+    "thumbnail": "../assets/art/046_thumb.jpg",
+    "image": "../assets/art/046.jpg",
+    "year": "2012",
+    "medium": "digital"
+  },{
+    "id": 47,
+    "title": "Lana",
+    "thumbnail": "../assets/art/047_thumb.jpg",
+    "image": "../assets/art/047.jpg",
+    "year": "2012",
+    "medium": "digital"
+  },{
+    "id": 48,
+    "title": "Faerie Woman",
+    "thumbnail": "../assets/art/048_thumb.jpg",
+    "image": "../assets/art/048.jpg",
+    "year": "2012",
+    "medium": "oil on canvas"
+  }
+]

@@ -1,11 +1,24 @@
-<form name="contact-form" ng-submit="sendMessage(message)">
-  <label for="Name">Name</label>
-  <input pattern="[A-Z,a-z, ]*" type="text" ng-model="message.name">
-  <span class="form-error">Letters and spaces only</span>
-  <label for="Email">Email</label>
-  <input type="text" ng-model="message.email">
-  <label for="note">Note</label>
-  <textarea type="text" rows="5" ng-model="message.note"></textarea>
-  <button type="submit" class="button button-primary" >Send</button>
-</form>
-<p>{{ confirmation }}</p>
+<div class="contact_card">
+  <div class="contact_card-media"></div>
+  <div class="contact_card-content">
+    <form name="contact-form" (submit)="sendMessage(message)">
+      <div class="floating_label-container">
+        <label for="Name">Name</label>
+        <input pattern="[A-Z,a-z, ]*" type="text">
+        <span class="form-error">Letters and spaces only</span>
+      </div>
+      <div class="floating_label-container">
+        <label for="Email">Email</label>
+        <input type="text">
+      </div>
+      <div class="floating_label-container">
+        <label for="note">Note</label>
+        <textarea type="text" rows="4"></textarea>
+      </div>
+      <div class="button_container">
+        <button type="submit" class="button button-primary">Send</button>
+      </div>
+    </form>
+    <p>{{ confirmationMsg }}</p>
+  </div>
+</div>
