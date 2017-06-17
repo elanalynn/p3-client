@@ -2,10 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, Inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { EditorModule } from 'primeng/components/editor/editor';
-import { SharedModule } from 'primeng/components/common/shared';
-import { AdminModule } from './admin/admin.module';
 import { AppRoutingModule } from './app-routing.module';
 import { MastheadModule } from './masthead/masthead.module';
 import { IllustrationsModule } from './illustrations/illustrations.module';
@@ -35,16 +31,12 @@ import './rxjs-extensions';
   ],
   imports: [
     BrowserModule,
-    // BrowserAnimationsModule,
-    EditorModule,
     FormsModule,
     HttpModule,
-    AdminModule,
     MastheadModule,
     IllustrationsModule,
     ProjectsModule,
     PostsModule,
-    SharedModule,
     AppRoutingModule
   ],
   providers: [],
