@@ -24,9 +24,7 @@
         "../node_modules/primeng/resources/themes/omega/theme.css",
         "styles.scss"
       ],
-      "scripts": [
-        "../node_modules/quill/dist/quill.js"
-      ],
+      "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
