@@ -1,9 +1,9 @@
-@import '/scss/colors';
-@import '/scss/fonts';
+@import '/themes/googly/index';
 
 body {
+    height: 100%;
     background: url('/assets/squared_metal.png') repeat;
-    color: $primary-text-alt-color;
+    color: $primary-text-color;
 }
 
 h1, h2, h3, h4 {
@@ -16,5 +16,5 @@ p, li {
 
 a {
     text-decoration: none;
-    color: $primary-text-alt-color;
+    color: $anchor-color;
 }

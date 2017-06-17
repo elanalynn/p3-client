@@ -1,58 +1,43 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, Inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
+import { MastheadModule } from './masthead/masthead.module';
+import { IllustrationsModule } from './illustrations/illustrations.module';
+// import { ProjectsModule } from './projects';
+// import { WritingModule } from './writing/writing.module';
 
 import { AppComponent } from './app.component';
-import { APP_ROUTES } from './routes';
-import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
+
 import {
-  // IllustrationsModule,
-  IllustrationsComponent,
-  IllustrationComponent
-} from './illustrations';
-import { MastheadComponent } from './masthead/masthead.component';
-import { AvatarComponent } from './masthead/avatar/avatar.component';
-import { MainMenuComponent } from './masthead/main-menu/main-menu.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { ProjectComponent } from './projects/project/project.component';
-import { SocialIconsComponent } from './masthead/social-icons/social-icons.component';
-import { ResumeComponent } from './resume/resume.component';
-import { ShadIsSmartComponent } from './shad-is-smart/shad-is-smart.component';
-import {
-  PostComponent,
-  WritingModule,
-  WritingComponent
-} from './writing';
+  AboutComponent,
+  ContactComponent,
+  PageNotFoundComponent,
+  ResumeComponent,
+  ShadIsSmartComponent,
+ } from './';
+
 import './rxjs-extensions';
 
 @NgModule({
   declarations: [
     AboutComponent,
     AppComponent,
-    AvatarComponent,
     ContactComponent,
-    MainMenuComponent,
-    MastheadComponent,
-    IllustrationComponent,
-    IllustrationsComponent,
-    ProjectComponent,
-    ProjectsComponent,
+    PageNotFoundComponent,
     ResumeComponent,
-    ShadIsSmartComponent,
-    SocialIconsComponent,
-    WritingComponent,
-    PostComponent
+    ShadIsSmartComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    // IllustrationsModule,
-    RouterModule.forRoot(APP_ROUTES),
-    WritingModule
+    AppRoutingModule,
+    MastheadModule,
+    IllustrationsModule,
+    // ProjectsModule,
+    // WritingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

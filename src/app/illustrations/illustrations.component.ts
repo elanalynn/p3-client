@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IllustrationsService } from './';
+import { IllustrationsService } from './illustrations.service';
 import { IIllustration } from './illustration/illustration.model';
 
 @Component({
@@ -11,7 +11,7 @@ export class IllustrationsComponent implements OnInit {
   illustrations: IIllustration[];
 
   constructor(
-    // private illustrationsSvc: IllustrationsService
+    private illustrationsSvc: IllustrationsService
   ) { }
 
   ngOnInit() {

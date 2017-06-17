@@ -1,8 +1,7 @@
-@import '../../../scss/colors'; 
-@import '../../../scss/fonts'; 
+@import '../../../themes/googly/index';
 
 ul {
-    margin: 20px 0;
+    margin: 1em 0;
     padding: 0;
 
     li {
@@ -10,9 +9,9 @@ ul {
         background-color: $accent-color;
         list-style: none;
         font-size: 1.2em;
-        line-height: 2em;
+        line-height: 1.6em;
         text-align: center;
-        padding: 5px 0;
+        padding: .2em 0;
         margin: 0;
         width: 100%;
 
@@ -21,7 +20,7 @@ ul {
         }
 
         .active {
-            color: $primary-text-color;
+            color: $anchor-color;
             font-weight: bold;
         }
 

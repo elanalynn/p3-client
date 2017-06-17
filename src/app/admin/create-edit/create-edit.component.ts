@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { EditorModule, SharedModule } from 'primeng/primeng';
 
 @Component({
   selector: 'app-create-edit',

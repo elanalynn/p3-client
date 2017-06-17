@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IllustrationsService } from './';
+import { IllustrationComponent, IllustrationsComponent } from './';
+import { IllustrationsService } from './illustrations.service';
 
 @NgModule({
   imports: [
@@ -9,6 +10,13 @@ import { IllustrationsService } from './';
   providers: [
     IllustrationsService
   ],
-  declarations: []
+  declarations: [
+    IllustrationsComponent,
+    IllustrationComponent
+  ],
+  exports: [
+    IllustrationsComponent,
+    IllustrationComponent
+  ]
 })
 export class IllustrationsModule { }

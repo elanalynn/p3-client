@@ -1,16 +1,21 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+// import { NgModule } from '@angular/core';
+// import { CommonModule } from '@angular/common';
 // import { WritingComponent } from './writing.component';
-import { WritingService } from './writing.service';
+// import { WritingService } from './writing.service';
 
-@NgModule({
-  imports: [
-    CommonModule,
-    // WritingComponent
-  ],
-  providers: [
-    WritingService
-  ],
-  declarations: []
-})
-export class WritingModule { }
+// @NgModule({
+//   imports: [
+//     CommonModule,
+//     WritingComponent
+//   ],
+//   providers: [
+//     WritingService
+//   ],
+//   declarations: [
+//     WritingComponent
+//   ],
+//   exports: [
+//     WritingComponent
+//   ]
+// })
+// export class WritingModule { }
