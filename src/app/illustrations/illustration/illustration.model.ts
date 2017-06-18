@@ -1,6 +1,9 @@
 export interface IIllustration {
     id: number;
-    title: string;
-    body: string;
     date: string;
+    desc: string;
+    medium: string;
+    src: string;
+    thumb: string;
+    title: string;
 }

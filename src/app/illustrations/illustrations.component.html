@@ -1,4 +1,6 @@
-<h2>Illustrations</h2>
-<div *ngFor="let illustration of illustrations">
-  <app-illustration></app-illustration>
-</div>
+<section>
+  <div *ngFor="let illustration of illustrations">
+    <!--<app-illustration></app-illustration>-->
+    <img src="{{ illustration.thumb }}" alt="{{ illustration.desc }}">
+  </div> 
+</section>

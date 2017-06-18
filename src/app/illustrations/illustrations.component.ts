@@ -15,14 +15,6 @@ export class IllustrationsComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    // const illustrations: IIllustration[] = [];
-    // this.illustrationsSvc.getIllustrations()
-    // .subscribe(i => {
-    //   i.map(illustration => {
-    //     illustrations.push(illustration);
-    //     this.illustrations = illustrations;
-    //     console.log(this.illustrations);
-    //   });
-    // });
+    this.illustrations = this.illustrationsSvc.getIllustrations();
   }
 }
