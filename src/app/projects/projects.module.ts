@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { ProjectComponent, ProjectsComponent } from './';
-import { ProjectsService } from './projects.service';
+import { ProjectService } from './project.service';
 import { PROJECT_ROUTES } from './routes';
 
 @NgModule({
@@ -15,7 +15,7 @@ import { PROJECT_ROUTES } from './routes';
     RouterModule.forChild(PROJECT_ROUTES)
   ],
   providers: [
-    ProjectsService
+    ProjectService
   ],
   exports: [
     ProjectsComponent,
