@@ -1,5 +1,36 @@
+@import '../../themes/googly/index';
+
 section {
     width: 80%;
     max-width: 800px;
-    margin: 40px auto;
+    margin: 40px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    background-color: $color4;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 0 .4em #aaa;
+
+    img {
+        width: auto;
+        height: 100%;
+        max-height: 160px;
+    }
+
+    .details {
+        margin: 1em;
+    }
+
+    .tech {
+        font-size: .8em;
+        font-style: italic;
+    }
+
+    .desc {
+        font-size: .9em;
+    }
 }

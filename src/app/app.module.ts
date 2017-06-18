@@ -7,6 +7,7 @@ import { MastheadModule } from './masthead/masthead.module';
 import { IllustrationsModule } from './illustrations/illustrations.module';
 import { ProjectsModule } from './projects/projects.module';
 import { PostsModule } from './posts/posts.module';
+import { SharedModule } from './shared/shared.module';
 
 import { AppComponent } from './app.component';
 
@@ -37,6 +38,7 @@ import './rxjs-extensions';
     IllustrationsModule,
     ProjectsModule,
     PostsModule,
+    SharedModule,
     AppRoutingModule
   ],
   providers: [],

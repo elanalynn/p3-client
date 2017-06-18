@@ -2,9 +2,13 @@
   <p>
     Check out some of my personal web projects...
   </p>
-  <div *ngFor="let project of projects">
-    <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-    <p>{{ project.desc }}</p>
-    <!--<app-project></app-project>-->
+  <div *ngFor="let project of (projects | reverse)" class="project">
+    <img src="{{ project.img }}" alt="decorative image">
+    <div class="details">
+      <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+      <p class="tech">{{ project.tech }}</p>
+      <p class="desc">{{ project.desc }}</p>
+      <!--<app-project></app-project>-->
+    </div>
   </div>
 </section>

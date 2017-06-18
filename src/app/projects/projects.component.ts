@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProjectService } from './project.service';
+import { IProject } from './project/project.model';
 
 @Component({
   templateUrl: './projects.component.html',
@@ -7,7 +8,7 @@ import { ProjectService } from './project.service';
 })
 export class ProjectsComponent implements OnInit {
 
-  projects: any[];
+  projects: IProject[];
 
   constructor(
     private projectSvc: ProjectService
@@ -15,12 +16,6 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit() {
     this.projects = this.projectSvc.getProjects();
-    //  [
-    //   {
-    //     title: 'project1',
-    //     url: 'https://github.com/elanalynn/lench_ui'
-    //   }
-    // ];
   }
 
 }
