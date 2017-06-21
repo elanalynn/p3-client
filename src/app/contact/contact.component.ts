@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent  {
 
+  msg: string;
+  confirmationMsg: string;
+
   sendMessage(msg) {
     console.log(msg);
   }

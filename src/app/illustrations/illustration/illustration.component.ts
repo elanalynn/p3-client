@@ -7,12 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IllustrationComponent implements OnInit {
 
-  // illustration = {
-  //   date: 'sdf',
-  //   medium: 'sdf',
-  //   src: '/assets/social/twitter.png',
-  //   title: 'sd'
-  // };
+  illustration = {
+    date: 'sdf',
+    medium: 'sdf',
+    src: '/assets/social/twitter.png',
+    title: 'sd'
+  };
 
   constructor() { }
 
