@@ -1,15 +1,17 @@
-<h2>------------- 2017 -------------</h2>
-
-<p>... It's already May...</p>
-
-<h2>------------- 2016 -------------</h2>
-<ul>
-  <li *ngFor="let post of posts">
-    <a [routerLink]="['/post']">
-      <span class="post-date">{{ post.date | uppercase }}</span>
-      <span class="post-separator">&nbsp; | &nbsp;</span>
-      <span class="post-title">{{ post.title }}</span>
-      <span class="post-blurb"> {{ post.blurb }}</span>
-    </a>
-  </li>
-</ul>
+<section>
+  <h3>2017</h3>
+  <p>... It's already May...</p>
+</section>
+<section>
+  <h3>2016</h3>
+  <ul>
+    <li *ngFor="let post of posts">
+      <a [routerLink]="['/post']">
+        <span class="post-date">{{ post.date | uppercase }}</span>
+        <span class="post-separator">&nbsp; | &nbsp;</span>
+        <span class="post-title">{{ post.title }}</span>
+        <span class="post-blurb"> {{ post.blurb }}</span>
+      </a>
+    </li>
+  </ul>
+</section>

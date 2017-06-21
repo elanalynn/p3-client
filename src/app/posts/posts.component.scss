@@ -1,5 +1,14 @@
 @import '../../themes/googly/index'; 
 
+section {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 2em;
+    background-color: hsla(63, 100%, 96%, .1);
+    box-shadow: 0 0 .4em #aaa;
+}
+
 ul {
     list-style: none;
     padding-left: 0;

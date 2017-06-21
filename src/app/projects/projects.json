@@ -22,7 +22,7 @@
         "url": ""
     },{
         "id": 3,
-        "desc": "A collaborative writing platform where users can contribute to one anothers stories",
+        "desc": "A collaborative writing platform where users can contribute to community stories",
         "img": "assets/projects/collabowrite-thumbnail.png",
         "tech": "AngularJS, MaterialLite, Node, Express, Passport, PostgreSQL",
         "title": "CollaboWrite",
