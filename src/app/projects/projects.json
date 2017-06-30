@@ -1,38 +1,38 @@
 [
     {
         "id": 1,
-        "desc": "A tool for visualizing your life, week by week",
+        "desc": "A tool for visualizing your life, week by week (a very early project)",
         "img": "assets/projects/weeks-thumbnail.jpg",
         "tech": "JavaScript, jQuery, Google Maps API",
         "title": "Your Life in Weeks",
-        "url": ""
+        "url": "https://github.com/elanalynn/Your-Life-in-Weeks"
     },{
         "id": 2,
         "desc": "An event planning helper marketplace that enables users to find help for their events",
         "img": "assets/projects/planit-thumbnail.jpg",
         "tech": "Bootstrap, Node, Express, Passport, PostgreSQL",
         "title": "Planit",
-        "url": ""
+        "url": "https://github.com/elanalynn/Planit"
     },{
         "id": 3,
         "desc": "An app that maps the best bar crawl, letting users earn badges and track their drinking adventures",
         "img": "assets/projects/stumblr-thumbnail.jpg",
         "tech": "React Foundation, Node, Express, Passport, Twitter API, Google API, MongoDB",
         "title": "Stumblr",
-        "url": ""
+        "url": "https://github.com/elanalynn/stumblr"
     },{
         "id": 3,
-        "desc": "A collaborative writing platform where users can contribute to community stories",
+        "desc": "A collaborative writing platform where users can start writing their own tales contribute to other stories in the community",
         "img": "assets/projects/collabowrite-thumbnail.png",
         "tech": "AngularJS, MaterialLite, Node, Express, Passport, PostgreSQL",
         "title": "CollaboWrite",
-        "url": ""
+        "url": "https://github.com/elanalynn/collabowrite_ng_client"
     },{
         "id": 4,
         "desc": "An app that intelligently decides what's for lunch based on everyone's preferences so you don't have to worry about it",
-        "img": "assets/projects/planit-thumbnail.jpg",
+        "img": "assets/projects/lench-thumbnail.png",
         "tech": "Angular CLI, Foundation, Node, Express, Passport, PostgreSQL",
         "title": "Lench",
-        "url": ""
+        "url": "https://github.com/elanalynn/lench_ui"
     }
 ]
