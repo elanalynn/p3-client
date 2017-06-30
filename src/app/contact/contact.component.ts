@@ -11,5 +11,6 @@ export class ContactComponent  {
 
   sendMessage(msg) {
     console.log(msg);
+    this.confirmationMsg = 'Message sent!';
   }
 }

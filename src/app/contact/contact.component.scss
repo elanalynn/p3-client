@@ -1,5 +1,4 @@
 .contact_card {
-    // margin-left: 20%;
     width: 100%;
 
     .contact_card-media {
@@ -13,5 +12,9 @@
         width: 60%;
         max-width: 800px;
         margin: 20px auto auto;
+
+        button {
+            float: right;
+        }
     }
 }

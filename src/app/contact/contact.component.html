@@ -1,24 +1,21 @@
 <div class="contact_card">
   <div class="contact_card-media"></div>
   <div class="contact_card-content">
-    <form name="contact-form" (submit)="sendMessage(msg)">
-      <div class="floating_label-container">
-        <label for="Name">Name</label>
-        <input pattern="[A-Z,a-z, ]*" type="text">
-        <span class="form-error">Letters and spaces only</span>
-      </div>
-      <div class="floating_label-container">
+    <form #f="ngForm" novalidate (submit)="sendMessage(f.value, f.valid)">
+        <label for="name">Name</label>
+        <input type="text" name="name" ngModel required pattern="[A-Z,a-z, ]*">
+        <!--<small [hidden]="name.valid || (name.pristine && !f.submitted)" class="text-danger">
+          Name is required (Letters and spaces only)
+        </small>-->
         <label for="Email">Email</label>
-        <input type="text">
-      </div>
-      <div class="floating_label-container">
+        <input type="text" name="email" ngModel required>
+        <!--<small [hidden]="email.valid || (email.pristine && !f.submitted)">
+            Must be a valid email address
+        </small>-->
         <label for="note">Note</label>
-        <textarea type="text" rows="4"></textarea>
-      </div>
-      <div class="button_container">
+        <textarea type="text" name="note" ngModel rows="4"></textarea>
         <button type="submit" class="button button-primary">Send</button>
-      </div>
+        <p>{{ confirmationMsg }}</p>
     </form>
-    <p>{{ confirmationMsg }}</p>
   </div>
 </div>
