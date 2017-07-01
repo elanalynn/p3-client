@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { PathLocationStrategy } from '@angular/common';
 import { NgModule, Inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
@@ -45,7 +46,9 @@ import { SuccessComponent } from './success/success.component';
     SharedModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    PathLocationStrategy
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

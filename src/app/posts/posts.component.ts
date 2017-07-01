@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { PostService } from './posts.service';
-import { IPost } from './post/post.model';
+import { PostService } from '../shared/providers/posts.service';
+import { IPost } from '../shared/models/post.model';
 import * as moment from 'moment';
 
 @Component({
@@ -16,11 +16,10 @@ export class PostsComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    // const posts: IPost[] = [];
     this.postSvc.getPosts()
-    .map(p => p)
-    .subscribe(p => {
-      console.log(p);
+    // .map(p => p)
+    .subscribe(posts => {
+      this.posts = posts;
     });
   }
 }

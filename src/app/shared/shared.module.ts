@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ReversePipe } from './reverse.pipe';
+import { ReversePipe } from './pipes/reverse.pipe';
 
 @NgModule({
   imports: [
