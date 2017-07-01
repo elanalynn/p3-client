@@ -1,9 +1,15 @@
+import { Routes } from '@angular/router';
 import {
+   AdminComponent,
    DashboardComponent
 } from './';
 
-export const APP_ROUTES = [
-    { path: '', redirectTo: 'admin', pathMatch: 'full' },
-    { path: 'dashboard', component: DashboardComponent }
-    // { path: '**', component: PageNotFoundComponent }
+export const ADMIN_ROUTES: Routes = [
+    {
+        path: '',
+        component: AdminComponent,
+        children: [
+            { path: 'dashboard', component: DashboardComponent }
+        ]
+    }
 ];

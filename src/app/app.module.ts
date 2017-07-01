@@ -3,6 +3,7 @@ import { NgModule, Inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
+import { AdminModule } from './admin/admin.module';
 import { MastheadModule } from './masthead/masthead.module';
 import { IllustrationsModule } from './illustrations/illustrations.module';
 import { ProjectsModule } from './projects/projects.module';
@@ -36,6 +37,7 @@ import { SuccessComponent } from './success/success.component';
     BrowserModule,
     FormsModule,
     HttpModule,
+    AdminModule,
     MastheadModule,
     IllustrationsModule,
     ProjectsModule,
