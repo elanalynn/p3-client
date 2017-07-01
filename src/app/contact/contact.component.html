@@ -1,7 +1,7 @@
 <div class="contact_card">
   <div class="contact_card-media"></div>
   <div class="contact_card-content">
-    <form #f="ngForm" name="contact-form" novalidate (submit)="sendMessage(f.value, f.valid)">
+    <form #f="ngForm" name="contact-form" novalidate (submit)="sendMessage(f.value)">
         <label for="name">Name</label>
         <input type="text" name="name" ngModel required pattern="[A-Z,a-z, ]*">
         <!--<small [hidden]="name.valid || (name.pristine && !f.submitted)" class="text-danger">
