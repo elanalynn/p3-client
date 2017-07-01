@@ -4,6 +4,6 @@ main {
     margin: 6em 0;
 
     @include breakpoint(large){
-        margin-left: 300px;
+        margin-left: 0 auto auto 300px;
     }
 }
