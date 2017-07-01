@@ -6,6 +6,6 @@ section {
     margin: 0 4em;
 
     @include breakpoint(large){
-        margin: 0;
+        margin: auto;
     }
 }
