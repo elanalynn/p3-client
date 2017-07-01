@@ -1,4 +1,11 @@
+@import '~foundation-sites/scss/foundation';
+
 section {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 4em;
+
+    @include breakpoint(large){
+        margin: 0;
+    }
 }

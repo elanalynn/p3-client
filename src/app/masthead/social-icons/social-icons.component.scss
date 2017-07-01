@@ -1,6 +1,11 @@
+@import '~foundation-sites/scss/foundation';
+
 section {
-    display: flex;
-    justify-content: space-around;
-    width: 200px;
-    margin: 40px auto;
+    display: none;
+
+    @include breakpoint(medium){
+        justify-content: space-around;
+        width: 200px;
+        margin: 40px auto;
+    }
 }

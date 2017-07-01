@@ -1,8 +1,15 @@
+@import '~foundation-sites/scss/foundation';
+
 #avatar {
+    display: none;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background-image: url('/assets/profile_00.jpg');
     background-size: cover;
     margin: 0 auto;
+
+    @include breakpoint(large){
+        display: block;
+    }
 }

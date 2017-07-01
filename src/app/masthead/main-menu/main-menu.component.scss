@@ -1,8 +1,14 @@
 @import '../../../themes/googly/index';
+@import '~foundation-sites/scss/foundation';
 
-ul {
+.large {
+    display: none;
     margin: 1em 0;
     padding: 0;
+
+    @include breakpoint(large){
+        display: block;
+    }
 
     li {
         color: $alt-primary-text-color;
@@ -27,6 +33,21 @@ ul {
         a {
             color: inherit;
         }
+    }
+}
+
+.mobile {
+    display: flex;
+    justify-content: space-between;
+    
+
+    @include breakpoint(large){
+        display: none;
+    }
+
+    a {
+        font-size: .7em;
+        color: $color4;
     }
 }
 

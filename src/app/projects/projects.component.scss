@@ -1,9 +1,10 @@
 @import '../../themes/googly/index';
+@import '~foundation-sites/scss/foundation';
 
 section {
     width: 90%;
     max-width: 800px;
-    margin: 40px;
+    margin: 60px auto;
 }
 
 .project {
@@ -16,9 +17,14 @@ section {
     box-shadow: 0 0 .4em #aaa;
 
     img {
-        width: auto;
-        height: 100%;
-        max-height: 160px
+        display: none;
+
+        @include breakpoint(medium){
+            display: block;
+            width: auto;
+            height: 100%;
+            max-height: 160px;
+        }
     }
 
     .details {

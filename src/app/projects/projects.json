@@ -10,14 +10,14 @@
         "id": 2,
         "desc": "An event planning helper marketplace that enables users to find help for their events",
         "img": "assets/projects/planit-thumbnail.jpg",
-        "tech": "Bootstrap, Node, Express, Passport, PostgreSQL",
+        "tech": "JavaScript, Bootstrap, Node, Express, Passport, PostgreSQL",
         "title": "Planit",
         "url": "https://github.com/elanalynn/Planit"
     },{
         "id": 3,
         "desc": "An app that maps the best bar crawl, letting users earn badges and track their drinking adventures",
         "img": "assets/projects/stumblr-thumbnail.jpg",
-        "tech": "React Foundation, Node, Express, Passport, Twitter API, Google API, MongoDB",
+        "tech": "React, Foundation, Node, Express, Passport, Twitter API, Google API, MongoDB",
         "title": "Stumblr",
         "url": "https://github.com/elanalynn/stumblr"
     },{

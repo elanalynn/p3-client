@@ -4,36 +4,40 @@
 :host {
     background-color: $accent-color;
     width: 100%;
-    height: 40px;
     position: fixed;
     top: 0;
 
-    @include breakpoint(medium){
-        background-color: $accent-color;
+    @include breakpoint(large){
         width: 20%;
         max-width: 400px;
         min-width: 300px;
         height: 100vh;
-        position: fixed;
         left: 0;
-        top: 0;
-    }
-
-
-    h1, h2 {
-        text-align: center;
     }
 
     h1 {
-        margin: 40px auto 0;
+        margin: .4em auto 0;
+        text-align: center;
         color: $alt-primary-header-color;
-        font-size: 1.6em;
+        font-size: 1em;
+        
+        @include breakpoint(large){
+            margin: 40px auto 0;
+            font-size: 1.6em;
+        }
     }
 
     h2 {
+        margin: 0 auto .4em;
+        text-align: center;
         color: $alt-secondary-header-color;        
         font-weight: light;
-        margin: 0 auto 30px;
-        font-size: 1.4em;
+        font-size: .8em;
+        
+        @include breakpoint(large){
+            margin: 0 auto 30px;
+            font-size: 1.6em;
+            
+        }
     }
 }
