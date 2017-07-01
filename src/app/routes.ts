@@ -4,6 +4,7 @@ import {
     PageNotFoundComponent,
     ResumeComponent,
     ShadIsSmartComponent,
+    SuccessComponent
 } from './';
 
 export const APP_ROUTES = [
@@ -12,5 +13,6 @@ export const APP_ROUTES = [
     { path: 'contact', component: ContactComponent },
     { path: 'resume', component: ResumeComponent},
     { path: 'shad', component: ShadIsSmartComponent },
+    { path: 'success', component: SuccessComponent },
     { path: '**', component: PageNotFoundComponent }
 ];

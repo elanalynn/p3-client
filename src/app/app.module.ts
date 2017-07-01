@@ -20,6 +20,7 @@ import {
  } from './';
 
 import './rxjs-extensions';
+import { SuccessComponent } from './success/success.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import './rxjs-extensions';
     ContactComponent,
     PageNotFoundComponent,
     ResumeComponent,
-    ShadIsSmartComponent
+    ShadIsSmartComponent,
+    SuccessComponent
   ],
   imports: [
     BrowserModule,
