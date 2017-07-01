@@ -10,6 +10,7 @@ import { IllustrationsModule } from './illustrations/illustrations.module';
 import { ProjectsModule } from './projects/projects.module';
 import { PostsModule } from './posts/posts.module';
 import { SharedModule } from './shared/shared.module';
+import { MessageService } from './shared/providers/message.service';
 
 import { AppComponent } from './app.component';
 
@@ -47,6 +48,7 @@ import { SuccessComponent } from './success/success.component';
     AppRoutingModule
   ],
   providers: [
+    MessageService,
     PathLocationStrategy
   ],
   bootstrap: [AppComponent]

@@ -1,21 +1,28 @@
 <div class="contact_card">
   <div class="contact_card-media"></div>
   <div class="contact_card-content">
-    <form #f="ngForm" name="contact-form" novalidate (submit)="sendMessage(f.value)">
+    <form #f="ngForm" name="contact-form" novalidate (submit)="submitMessage(f.value, f.valid)">
         <label for="name">Name</label>
-        <input type="text" name="name" ngModel required pattern="[A-Z,a-z, ]*">
-        <!--<small [hidden]="name.valid || (name.pristine && !f.submitted)" class="text-danger">
-          Name is required (Letters and spaces only)
-        </small>-->
+        <input type="text" name="name" ngModel required pattern="[A-Z,a-z, ]">
+        <small *ngIf="name.errors && name.touched" class="text-danger">
+          Name is required
+        </small>
         <label for="Email">Email</label>
-        <input type="text" name="email" ngModel required>
-        <!--<small [hidden]="email.valid || (email.pristine && !f.submitted)">
+        <input type="text" name="email" ngModel required email>
+        <small *ngIf="email.errors && email.touched">
             Must be a valid email address
-        </small>-->
+        </small>
         <label for="note">Note</label>
-        <textarea type="text" name="note" ngModel rows="4"></textarea>
-        <button type="submit" class="button button-primary">Send</button>
-        <p>{{ confirmationMsg }}</p>
+        <textarea type="text" name="note" ngModel rows="4" required minlength="60"></textarea>
+        <small *ngIf="note.errors && note.touched">
+            Must be a valid email address
+        </small>
+        <label for="robot-test">
+          Are you a robot?
+          How many letters are in my first and last name?
+        </label>
+        <input type="number" name="robot-test" ngModel required pattern="18">
+        <button type="submit" class="button button-primary" [disabled]>Send</button>
     </form>
   </div>
 </div>

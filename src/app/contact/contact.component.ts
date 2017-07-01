@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-import { Http } from '@angular/http';
-import { NgForm } from '@angular/forms';
+// import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
+import { Observable } from 'Rxjs';
+import { MessageService } from '../shared/providers/message.service';
 
 @Component({
   templateUrl: './contact.component.html',
@@ -10,18 +11,15 @@ import { Router } from '@angular/router';
 export class ContactComponent  {
 
   msg: string;
-  confirmationMsg: string;
-  contactForm: NgForm;
 
   constructor(
-    private http: Http,
+    private msgSvc: MessageService,
     private router: Router
   ) {}
 
-  sendMessage(msg) {
+  submitMessage(msg, valid): void {
     console.log(msg);
-    this.confirmationMsg = 'Message sent!';
-    this.contactForm.resetForm();
+    this.msgSvc.sendMessage(msg);
     this.router.navigate(['success']);
   }
 }

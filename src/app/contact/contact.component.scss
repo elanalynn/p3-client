@@ -1,3 +1,4 @@
+@import '../../themes/googly/colors.scss';
 @import '~foundation-sites/scss/foundation';
 
 .contact_card {
@@ -24,8 +25,21 @@
             width: 60%;
         }
 
+        label {
+            margin-top: 1em;
+        }
+
+        input {
+            margin-bottom: 0;
+        }
+
         button {
             float: right;
+            margin-top: 1em;
+        }
+
+        small {
+            color: $color1;
         }
     }
 }
