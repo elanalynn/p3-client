@@ -24,6 +24,7 @@ import {
 
 import './rxjs-extensions';
 import { SuccessComponent } from './success/success.component';
+import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { SuccessComponent } from './success/success.component';
     PageNotFoundComponent,
     ResumeComponent,
     ShadIsSmartComponent,
-    SuccessComponent
+    SuccessComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
