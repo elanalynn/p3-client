@@ -17,12 +17,8 @@
         <small *ngIf="note.errors && note.touched">
             Must be a valid email address
         </small>
-        <label for="robot-test">
-          Are you a robot?
-          How many letters are in my first and last name?
-        </label>
-        <input type="number" name="robot-test" ngModel required pattern="18">
         <button type="submit" class="button button-primary" [disabled]>Send</button>
+        <!--<div class="g-recaptcha" data-sitekey="6LfrnScUAAAAAIXL2pP0_5zTl43Gna-x9Xnc4ICL"></div>-->
     </form>
   </div>
 </div>
