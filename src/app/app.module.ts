@@ -4,11 +4,9 @@ import { NgModule, Inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
-import { AdminModule } from './admin/admin.module';
 import { MastheadModule } from './masthead/masthead.module';
 import { IllustrationsModule } from './illustrations/illustrations.module';
 import { ProjectsModule } from './projects/projects.module';
-import { PostsModule } from './posts/posts.module';
 import { SharedModule } from './shared/shared.module';
 import { MessageService } from './shared/providers/message.service';
 
@@ -24,7 +22,6 @@ import {
 
 import './rxjs-extensions';
 import { SuccessComponent } from './success/success.component';
-import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -35,17 +32,14 @@ import { AuthComponent } from './auth/auth.component';
     ResumeComponent,
     ShadIsSmartComponent,
     SuccessComponent,
-    AuthComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    AdminModule,
     MastheadModule,
     IllustrationsModule,
     ProjectsModule,
-    PostsModule,
     SharedModule,
     AppRoutingModule
   ],
