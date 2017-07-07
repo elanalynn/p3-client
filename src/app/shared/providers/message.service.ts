@@ -6,7 +6,7 @@ import { environment } from '../../../environments/environment';
 @Injectable()
 export class MessageService {
 
-  constructor(private http: Http) { }
+  constructor(private http: Http) {}
 
   public sendMessage(message): Observable<any> {
     const headers = new Headers({ 'Content-Type': 'application/json' });

@@ -11,11 +11,14 @@ import { Message } from './message';
 export class ContactComponent  {
 
  msg: Message = new Message('', '', '');
+ env: string;
 
   constructor(
     private msgSvc: MessageService,
     private router: Router
-  ) {}
+  ) {
+
+  }
 
   submitMessage(msg, valid): void {
     console.log(msg);
