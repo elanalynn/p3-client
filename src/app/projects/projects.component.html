@@ -1,14 +1,16 @@
-<section>
-  <p>
-    Check out some of my personal web projects...
-  </p>
-  <div *ngFor="let project of (projects | reverse)" class="project">
-    <img src="{{ project.img }}" alt="decorative image">
-    <div class="details">
-      <a href="{{ project.url }}" target="_blank">{{ project.title }}</a>
-      <p class="tech">{{ project.tech }}</p>
-      <p class="desc">{{ project.desc }}</p>
-      <!--<app-project></app-project>-->
+<main>
+  <section>
+    <p>
+      Check out some of my personal web projects...
+    </p>
+    <div *ngFor="let project of (projects | reverse)" class="project">
+      <img src="{{ project.img }}" alt="decorative image">
+      <div class="details">
+        <a href="{{ project.url }}" target="_blank">{{ project.title }}</a>
+        <p class="tech">{{ project.tech }}</p>
+        <p class="desc">{{ project.desc }}</p>
+        <!--<app-project></app-project>-->
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+</main>

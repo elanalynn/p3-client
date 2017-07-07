@@ -1,4 +1,6 @@
 @import '/themes/googly/index';
+@import '~foundation-sites/scss/foundation';
+
 
 body {
     height: 100%;
@@ -22,5 +24,15 @@ a {
 main {
     width: 90%;
     max-width: 800px;
-    margin: 2.6em auto;
+    margin: 8em 1em;
+
+    @include breakpoint(medium){
+        width: 80%;
+        margin: 8em auto;
+    }
+
+    @include breakpoint(large){
+        width: 60%;
+        margin: 4em 6em 2em 24em;
+    }
 }
