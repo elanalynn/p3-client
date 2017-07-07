@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
-// import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
 import { Observable } from 'Rxjs';
 import { MessageService } from '../shared/providers/message.service';
+
+import { Message } from './message';
 
 @Component({
   templateUrl: './contact.component.html',
@@ -10,7 +11,7 @@ import { MessageService } from '../shared/providers/message.service';
 })
 export class ContactComponent  {
 
-  msg: string;
+ msg: Message = new Message('', '', '');
 
   constructor(
     private msgSvc: MessageService,
