@@ -1,4 +1,4 @@
-@import '../../themes/googly/colors.scss';
+@import '../../../themes/googly/colors.scss';
 @import '~foundation-sites/scss/foundation';
 
 .contact-media {
@@ -6,7 +6,7 @@
     height: auto;
     min-height: 100px;
     max-height: 300px;
-    background-image: url('../../assets/contact-image.jpg');
+    background-image: url('../../../assets/contact-image.jpg');
     background-size: cover;
     margin: 4em 0;
 

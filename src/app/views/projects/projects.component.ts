@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProjectService } from './project.service';
-import { IProject } from './project/project.model';
+import { IProject } from './project.model';
 
 @Component({
   templateUrl: './projects.component.html',

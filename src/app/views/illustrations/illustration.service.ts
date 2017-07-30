@@ -1,18 +1,17 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
-import { IIllustration } from './illustration/illustration.model';
+import { IIllustration } from './illustration.model';
 import * as i from './illustrations.json';
 import 'rxjs/Rx';
 
 @Injectable()
-export class IllustrationsService {
+export class IllustrationService {
     illustration: IIllustration;
     illustrations: IIllustration[];
 
     constructor () {}
 
     getIllustrations(): any {
-        console.log('here', i);
         return i;
     }
 

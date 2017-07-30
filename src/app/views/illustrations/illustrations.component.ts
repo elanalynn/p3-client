@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { IllustrationsService } from './illustrations.service';
-import { IIllustration } from './illustration/illustration.model';
+import { IllustrationService } from './illustration.service';
+import { IIllustration } from './illustration.model';
 
 @Component({
   templateUrl: './illustrations.component.html',
@@ -11,7 +11,7 @@ export class IllustrationsComponent implements OnInit {
   illustrations: IIllustration[];
 
   constructor(
-    private illustrationsSvc: IllustrationsService
+    private illustrationsSvc: IllustrationService
   ) { }
 
   ngOnInit() {

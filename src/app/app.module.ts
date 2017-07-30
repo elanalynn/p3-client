@@ -5,8 +5,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 import { MastheadModule } from './masthead/masthead.module';
-import { IllustrationsModule } from './illustrations/illustrations.module';
-import { ProjectsModule } from './projects/projects.module';
 import { SharedModule } from './shared/shared.module';
 import { MessageService } from './shared/providers/message.service';
 
@@ -15,20 +13,26 @@ import { AppComponent } from './app.component';
 import {
   AboutComponent,
   ContactComponent,
+  IllustrationsComponent,
+  IllustrationService,
   PageNotFoundComponent,
+  ProjectsComponent,
+  ProjectService,
   ResumeComponent,
   ShadIsSmartComponent,
- } from './';
+  SuccessComponent
+ } from './views/index';
 
 import './rxjs-extensions';
-import { SuccessComponent } from './success/success.component';
 
 @NgModule({
   declarations: [
     AboutComponent,
     AppComponent,
     ContactComponent,
+    IllustrationsComponent,
     PageNotFoundComponent,
+    ProjectsComponent,
     ResumeComponent,
     ShadIsSmartComponent,
     SuccessComponent,
@@ -38,13 +42,13 @@ import { SuccessComponent } from './success/success.component';
     FormsModule,
     HttpModule,
     MastheadModule,
-    IllustrationsModule,
-    ProjectsModule,
     SharedModule,
     AppRoutingModule
   ],
   providers: [
+    IllustrationService,
     MessageService,
+    ProjectService,
     PathLocationStrategy
   ],
   bootstrap: [AppComponent]

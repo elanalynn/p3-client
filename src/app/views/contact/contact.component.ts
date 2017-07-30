@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { MessageService } from '../shared/providers/message.service';
+import { MessageService } from '../../shared/providers/message.service';
 
 import { Message } from './message';
 
