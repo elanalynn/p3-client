@@ -3,9 +3,10 @@ const app = express();
 const path = require('path');
 
 app.use(express.static(__dirname + '/dist'));
+app.use(sendIndex);
 
-// app.get('/*', function(req, res) {
-//   res.sendFile(path.join(__dirname + '/dist/index.html'));
-// });
+function sendIndex(req,res) {
+    res.sendFile('index.html', { root: '.' });
+}
 
 app.listen(process.env.PORT || 8080);
