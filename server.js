@@ -6,7 +6,7 @@ app.use(express.static(__dirname + '/dist'));
 app.use(sendIndex);
 
 function sendIndex(req,res) {
-    res.sendFile('index.html', { root: '.' });
+    res.sendFile('/dist/index.html');
 }
 
 app.listen(process.env.PORT || 8080);
